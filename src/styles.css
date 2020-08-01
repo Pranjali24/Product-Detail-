@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+/* Header section */
+.heading {
+  text-align: center;
+  margin: 2rem 0 4rem 30rem;
+  padding: 2rem 0 0.5rem;
+  border-bottom: 2px solid lightcoral;
+  width: 30%;
+  color: #333;
+}
+.input-content {
+  background-color: #222;
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.input-box {
+  color: #444;
+  background-color: #eee;
+  width: 45%;
+  padding: 2rem 1.5rem;
+  border-radius: 3px;
+}
+.input-field {
+  height: 40px;
+  width: 100%;
+  color: #444;
+  padding: 0.2rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 2px solid lightblue;
+  background-color: rgba(173, 216, 230, 0.582);
+  margin-bottom: 1rem;
+}
+.btn {
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-left: 10rem;
+}
+/* Product Content */
+.product-content {
+  margin-bottom: 1rem;
+}
+.product-title {
+  display: inline-block;
+  margin-left: 3.5rem;
+}
+.prodct-descriton {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid lightcoral;
+  text-transform: capitalize;
+}
+.image {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Search bar  */
+.search-bar {
+  width: 36%;
+  margin: 1.5rem 28rem;
+}
+.search-bar input {
+  border: 3px solid rgba(0, 0, 0, 0.767);
+  background-color: rgba(211, 211, 211, 0.555);
+}
+
+/* Course Section */
+.course-content {
+  padding: 1rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course-box {
+  box-shadow: 2px 4px 8px rgba(238, 238, 238, 0.753);
+  width: 20%;
+  margin: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.product-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.price {
+  padding: 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.quantity {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
