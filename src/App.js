@@ -8,7 +8,6 @@ import CourseContent from "./components/CourseContent";
 export default function App() {
   const [productArray, setProductArray] = useState([]);
   function addProduct(newProduct) {
-    console.log("Add product", newProduct);
     setProductArray(preProduct => {
       return [...preProduct, newProduct];
     });
@@ -19,8 +18,8 @@ export default function App() {
       <Header title="Add Course On Website" />
       <InputArea addProductList={addProduct} />
       <Header title="Added Course Details" />
-      <SearchBar />
-      <CourseContent ProductList={productArray} />
+      <SearchBar productList={productArray} />
+      <CourseContent productList={productArray} />
     </div>
   );
 }

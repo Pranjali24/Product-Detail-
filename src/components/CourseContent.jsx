@@ -3,7 +3,7 @@ import Course from "./Course";
 export default function CourseContent(props) {
   return (
     <div className="course-content">
-      {props.ProductList.map((product, index) => {
+      {props.productList.map((product, index) => {
         return (
           <Course
             key={index}
