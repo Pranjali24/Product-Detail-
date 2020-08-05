@@ -6,6 +6,54 @@
 body {
   background-color: #eee;
 }
+/* Navigation Section */
+.navigation {
+  padding: 1rem 15rem;
+  border-bottom: 2px solid #000;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.407);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav__item {
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+.nav__link {
+  color: #f4f4f4;
+  background-color: rgba(0, 0, 0, 0.685);
+  padding: 0.4rem 0.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* Home Main section */
+.main {
+  background-image: linear-gradient(120deg, #206a5d, #ffb6b9);
+  height: 500px;
+  position: relative;
+}
+.main__content {
+  width: 30%;
+  text-align: center;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.548);
+  background-color: whitesmoke;
+  border-radius: 4px;
+  padding: 3rem 2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main__heading {
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.main__subheading {
+  font-size: 1.1rem;
+}
+
 /* Header section */
 .heading {
   text-align: center;
