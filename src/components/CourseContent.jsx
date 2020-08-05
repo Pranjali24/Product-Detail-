@@ -22,15 +22,7 @@ export default function CourseContent(props) {
       </div>
       <div className="course-content">
         {searchProduct.map((product, index) => {
-          return (
-            <Course
-              key={index}
-              productName={product.productName}
-              productPrice={product.productPrice}
-              productQuantity={product.productQuantity}
-              productImage={product.productImage}
-            />
-          );
+          return <Course key={index} productDetails={product} />;
         })}
       </div>
     </div>
